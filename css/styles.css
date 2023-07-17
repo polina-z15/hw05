@@ -1,0 +1,151 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.first-section {
+  background-color: #f3f5f6;
+}
+.change-photos {
+  width: 300px;
+}
+.change-photos .change-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.change-photos .change-photo:nth-of-type(2) {
+  display: none;
+}
+
+.change-photos:hover .change-photo:nth-of-type(1) {
+  display: none;
+}
+
+.change-photos:hover .change-photo:nth-of-type(2) {
+  display: block;
+}
+
+.change-photos:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* .py-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #f3f5f6;
+}
+
+.my-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+} */
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1440px;
+  background-color: #f3f5f6;
+  border-radius: 10px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px auto;
+  position: relative;
+}
+
+.text-wrap {
+  max-width: 310px;
+}
+
+.wrap2 {
+  max-width: 600px;
+  align-self: flex-start;
+}
+
+.wrap2 > img {
+  max-width: 50%;
+}
+
+.play {
+  position: absolute;
+  z-index: 2;
+  left: 15px;
+  bottom: 20px;
+}
+
+.arrows {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: #f3f5f6;
+  transform: translate(-50%, 50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.arrows img {
+  width: 32px;
+  height: 110px;
+}
+.arrows img .left {
+  width: 32px;
+}
+/* .two {
+  margin-right: 30px;
+}
+
+.one1 {
+  margin-right: 30px;
+} */
+
+.left {
+  margin-left: 30px;
+  margin-right: 64px;
+}
+.right {
+  margin-right: 30px;
+}
+
+p {
+  margin: 0;
+}
+.aunt1 {
+  display: none;
+}
+.aunt2 {
+  display: none;
+}

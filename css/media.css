@@ -1,0 +1,77 @@
+@media (max-width: 1293px) {
+  .text-wrap {
+    position: absolute;
+    left: 0;
+    top: 4rem;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+  }
+  .arrows img {
+    width: 32px;
+    height: 112px;
+  }
+}
+
+@media (max-width: 992px) {
+  .text-wrap {
+    position: absolute;
+    left: 0;
+    top: 4rem;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+  }
+  .three {
+    display: none;
+  }
+  .wrap2 > img + img {
+    display: none;
+  }
+  .wrap2 > img {
+    max-width: 100%;
+  }
+  .arrows {
+    left: 45%;
+    width: 70%;
+
+    background-color: #f3f5f6;
+    margin-left: 2px;
+  }
+  .arrows img {
+    width: 32px;
+    height: 112px;
+  }
+  .wrapper {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .one {
+    background-image: url("/images/aunt1.jpg");
+  }
+}
+@media (max-width: 650px) {
+  .wrap2 > img {
+    max-width: 100%;
+  }
+  .wrap2 > img + img {
+    display: none;
+  }
+  .text-wrap {
+    position: absolute;
+    left: 0;
+    top: 4rem;
+    color: white;
+    z-index: 2;
+  }
+  .wrap2 img + img {
+    display: initial;
+  }
+
+  .arrows img {
+    width: 48px;
+    height: 48px;
+  }
+  .img-wrap {
+    flex-direction: column;
+  }
+ 
+}
